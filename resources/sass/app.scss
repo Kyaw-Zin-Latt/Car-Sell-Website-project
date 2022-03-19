@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600&display=swap');
+
+$font-family-sans-serif : 'Rajdhani', sans-serif;
+$primary : #e10200;
+$secondary : #999999;
+$light : #0432bb;
+$dark :#0f0e13;
+$white : #fffeff;
+$btn-border-radius: 0px;
+$btn-border-radius-sm: 0px;
+$btn-border-radius-lg: 0px;
+$card-height: 100%;
+$btn-padding-y: 0.20rem;
+$btn-padding-x: 1.20rem;
+$btn-padding-y-sm: 0.25rem;
+$btn-padding-x-sm: 1.60rem;
+$btn-font-size-sm: 0.80rem;
+$card-border-radius : 0px;
+
+//slick
+$slick-dot-size : 10px;
+$slick-dot-color : #fc2121;
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~animate.css/animate.min.css";
+@import "../../node_modules/venobox/dist/venobox.css";
+@import "../../node_modules/slick-carousel/slick/slick";
+@import "../../node_modules/slick-carousel/slick/slick-theme";
+@import "~imagehover.css/scss/_custom";
+@import "~imagehover.css/scss/imagehover";
+
