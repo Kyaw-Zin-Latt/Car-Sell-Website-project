@@ -14,7 +14,7 @@
 
     @include("layouts.header")
     @yield("car")
-
+    @yield("belowNav")
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">

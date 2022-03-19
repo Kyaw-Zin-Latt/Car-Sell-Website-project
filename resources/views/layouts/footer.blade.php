@@ -121,7 +121,7 @@
                     <a class="nav-link fst-italic text-white text-uppercase fw-bolder" href="#">Blog</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a class="nav-link fst-italic text-white text-uppercase fw-bolder" href="#">Contact</a>
+                    <a class="nav-link fst-italic text-white text-uppercase fw-bolder" href="{{ route("contact") }}">Contact</a>
                 </li>
             </ul>
         </div>

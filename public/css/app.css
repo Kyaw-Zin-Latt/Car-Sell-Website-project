@@ -3781,8 +3781,8 @@ textarea.form-control-lg {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  padding: 0.4rem 2.6rem;
+  font-size: 1rem;
   border-radius: 0px;
 }
 
@@ -4203,8 +4203,8 @@ textarea.form-control-lg {
 }
 
 .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 1.95rem;
+  padding-left: 1.95rem;
 }
 
 .btn-group-vertical {

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white py-0">
-    <div class="container">
+    <div class="container px-0">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item me-4">
