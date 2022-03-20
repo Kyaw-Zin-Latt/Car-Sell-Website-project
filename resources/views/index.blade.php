@@ -14,20 +14,6 @@
             padding: 10px;
         }
 
-        .left {
-            height: 50px;
-            background: #e10200;
-            position: relative;
-        }
-        .left:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            border-top: 50px solid #e10200;
-            border-right: 37px solid #0f0e13;
-            width: 0;
-        }
         .bg-overlay{
             width: 100%;
             height: 450px;
@@ -94,16 +80,16 @@
            <h5 class="header-width mb-4 fw-bolder text-dark text-uppercase fst-italic border-start border-end border-5 mx-auto border-primary">The Best Choice For You</h5>
        </div>
 
-       <div class="col-3">
+       <div class="col-3 scroll-reveal">
            <div class="card border-0 mb-3">
                <div class="position-relative">
-                   <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
+                   <img src="{{ asset("img/cars/red.jpg") }}" class="card-img-top">
                    <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
                        <div class="bg-secondary me-2 px-1">
                            <i class="fas fa-play-circle fa-fw"></i>
                        </div>
                        <div class="bg-secondary px-1">
-                           <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
+                           <a class="venobox" href="{{ asset("img/cars/red.jpg") }}">
                                <i class="fas fa-image fa-fw text-dark"></i>
                            </a>
 
@@ -124,16 +110,16 @@
                </div>
            </div>
        </div>
-       <div class="col-3">
+       <div class="col-3 scroll-reveal">
            <div class="card border-0 mb-3">
                <div class="position-relative">
-                   <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
+                   <img src="{{ asset("img/cars/red.jpg") }}" class="card-img-top">
                    <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
                        <div class="bg-secondary me-2 px-1">
                            <i class="fas fa-play-circle fa-fw"></i>
                        </div>
                        <div class="bg-secondary px-1">
-                           <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
+                           <a class="venobox" href="{{ asset("img/cars/red.jpg") }}">
                                <i class="fas fa-image fa-fw text-dark"></i>
                            </a>
 
@@ -154,16 +140,16 @@
                </div>
            </div>
        </div>
-       <div class="col-3">
+       <div class="col-3 scroll-reveal">
            <div class="card border-0 mb-3">
                <div class="position-relative">
-                   <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
+                   <img src="{{ asset("img/cars/red.jpg") }}" class="card-img-top">
                    <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
                        <div class="bg-secondary me-2 px-1">
                            <i class="fas fa-play-circle fa-fw"></i>
                        </div>
                        <div class="bg-secondary px-1">
-                           <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
+                           <a class="venobox" href="{{ asset("img/cars/red.jpg") }}">
                                <i class="fas fa-image fa-fw text-dark"></i>
                            </a>
 
@@ -184,16 +170,16 @@
                </div>
            </div>
        </div>
-       <div class="col-3">
+       <div class="col-3 scroll-reveal">
            <div class="card border-0 mb-3">
                <div class="position-relative">
-                   <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
+                   <img src="{{ asset("img/cars/red.jpg") }}" class="card-img-top">
                    <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
                        <div class="bg-secondary me-2 px-1">
                            <i class="fas fa-play-circle fa-fw"></i>
                        </div>
                        <div class="bg-secondary px-1">
-                           <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
+                           <a class="venobox" href="{{ asset("img/cars/red.jpg") }}">
                                <i class="fas fa-image fa-fw text-dark"></i>
                            </a>
 
@@ -215,16 +201,16 @@
            </div>
        </div>
 
-       <div class="col-3">
+       <div class="col-3 scroll-reveal">
            <div class="card border-0 mb-3">
                <div class="position-relative">
-                   <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
+                   <img src="{{ asset("img/cars/red.jpg") }}" class="card-img-top">
                    <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
                        <div class="bg-secondary me-2 px-1">
                            <i class="fas fa-play-circle fa-fw"></i>
                        </div>
                        <div class="bg-secondary px-1">
-                           <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
+                           <a class="venobox" href="{{ asset("img/cars/red.jpg") }}">
                                <i class="fas fa-image fa-fw text-dark"></i>
                            </a>
 
@@ -245,16 +231,16 @@
                </div>
            </div>
        </div>
-       <div class="col-3">
+       <div class="col-3 scroll-reveal">
            <div class="card border-0 mb-3">
                <div class="position-relative">
-                   <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
+                   <img src="{{ asset("img/cars/red.jpg") }}" class="card-img-top">
                    <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
                        <div class="bg-secondary me-2 px-1">
                            <i class="fas fa-play-circle fa-fw"></i>
                        </div>
                        <div class="bg-secondary px-1">
-                           <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
+                           <a class="venobox" href="{{ asset("img/cars/red.jpg") }}">
                                <i class="fas fa-image fa-fw text-dark"></i>
                            </a>
 
@@ -275,16 +261,16 @@
                </div>
            </div>
        </div>
-       <div class="col-3">
+       <div class="col-3 scroll-reveal">
            <div class="card border-0 mb-3">
                <div class="position-relative">
-                   <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
+                   <img src="{{ asset("img/cars/red.jpg") }}" class="card-img-top">
                    <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
                        <div class="bg-secondary me-2 px-1">
                            <i class="fas fa-play-circle fa-fw"></i>
                        </div>
                        <div class="bg-secondary px-1">
-                           <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
+                           <a class="venobox" href="{{ asset("img/cars/red.jpg") }}">
                                <i class="fas fa-image fa-fw text-dark"></i>
                            </a>
 
@@ -305,16 +291,16 @@
                </div>
            </div>
        </div>
-       <div class="col-3">
+       <div class="col-3 scroll-reveal">
            <div class="card border-0 mb-3">
                <div class="position-relative">
-                   <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
+                   <img src="{{ asset("img/cars/red.jpg") }}" class="card-img-top">
                    <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
                        <div class="bg-secondary me-2 px-1">
                            <i class="fas fa-play-circle fa-fw"></i>
                        </div>
                        <div class="bg-secondary px-1">
-                           <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
+                           <a class="venobox" href="{{ asset("img/cars/red.jpg") }}">
                                <i class="fas fa-image fa-fw text-dark"></i>
                            </a>
 
@@ -399,16 +385,17 @@
                                 <h5 class="header-width mb-4 fw-bolder text-dark text-uppercase fst-italic border-start border-end border-5 mx-auto border-primary">CarWorld Magazine</h5>
                             </div>
 
-                            <div class="col-4">
+                            @foreach($blogLimitedThree as $blog)
+                            <div class="col-4 scroll-reveal">
                                 <div class="card border-0 mb-3" style="background-color: #eee !important;">
                                     <div class="position-relative">
-                                        <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
+                                        <img src="{{ asset("storage/blog/".$blog->photo) }}" style="height: 220px" class="card-img-top">
                                         <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
                                             <div class="bg-secondary me-2 px-1">
                                                 <i class="fas fa-play-circle fa-fw"></i>
                                             </div>
                                             <div class="bg-secondary px-1">
-                                                <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
+                                                <a class="venobox" href="{{ asset("storage/blog/".$blog->photo) }}">
                                                     <i class="fas fa-image fa-fw text-dark"></i>
                                                 </a>
 
@@ -416,11 +403,11 @@
                                         </div>
                                     </div>
                                     <div class="card-body p-0 mt-3">
-                                        <h6 class="mb-0 card-title fw-bolder text-dark fst-italic">The Title Name</h6>
+                                        <h6 class="mb-0 card-title fw-bolder text-dark fst-italic">{{ $blog->title }}</h6>
                                         <div class="mb-4 mt-2">
                                             <small class="text-black-50 my-2 fw-bolder fst-italic">
                                                 <i class="far fa-clock"></i>
-                                                Jan 18, 2022
+                                                {{ $blog->created_at->format("d M Y") }}
                                             </small> |
                                             <small class="text-black-50 my-2 fw-bolder fst-italic">
                                                 <i class="far fa-comment"></i>
@@ -428,88 +415,16 @@
                                             </small>
                                         </div>
                                         <small class="d-block text-black-50 ">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, sequi, ullam! Earum illum ipsum quos sit totam. Aliquid animi commodi, cum cumque fugit maxime nostrum quis totam veritatis voluptas voluptatum.
+                                            {{ $blog->description }}
                                         </small>
-                                        <div class="d-flex">
-                                            <a href="#" class="mt-4 btn btn-sm btn-secondary text-white fst-italic text-uppercase fw-bolder">Readmore</a>
-                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="card border-0 mb-3" style="background-color: #eee !important;">
-                                    <div class="position-relative">
-                                        <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
-                                        <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
-                                            <div class="bg-secondary me-2 px-1">
-                                                <i class="fas fa-play-circle fa-fw"></i>
-                                            </div>
-                                            <div class="bg-secondary px-1">
-                                                <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
-                                                    <i class="fas fa-image fa-fw text-dark"></i>
-                                                </a>
+                                    <div class="card-footer">
+                                        <a href="{{ route("blog.show",$blog->id) }}" class="btn btn-sm btn-secondary text-white fst-italic text-uppercase fw-bolder">Readmore</a>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body p-0 mt-3">
-                                        <h6 class="mb-0 card-title fw-bolder text-dark fst-italic">The Title Name</h6>
-                                        <div class="mb-4 mt-2">
-                                            <small class="text-black-50 my-2 fw-bolder fst-italic">
-                                                <i class="far fa-clock"></i>
-                                                Jan 18, 2022
-                                            </small> |
-                                            <small class="text-black-50 my-2 fw-bolder fst-italic">
-                                                <i class="far fa-comment"></i>
-                                                0 comment
-                                            </small>
-                                        </div>
-                                        <small class="d-block text-black-50 ">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, sequi, ullam! Earum illum ipsum quos sit totam. Aliquid animi commodi, cum cumque fugit maxime nostrum quis totam veritatis voluptas voluptatum.
-                                        </small>
-                                        <div class="d-flex">
-                                            <a href="#" class="mt-4 btn btn-sm btn-secondary text-white fst-italic text-uppercase fw-bolder">Readmore</a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
-                                <div class="card border-0 mb-3" style="background-color: #eee !important;">
-                                    <div class="position-relative">
-                                        <img src="{{ asset("img/cars/car-special1.jpg") }}" class="card-img-top">
-                                        <div class="position-absolute bottom-0 d-flex mb-2" style="right: 10px">
-                                            <div class="bg-secondary me-2 px-1">
-                                                <i class="fas fa-play-circle fa-fw"></i>
-                                            </div>
-                                            <div class="bg-secondary px-1">
-                                                <a class="venobox" href="{{ asset("img/cars/car-special1.jpg") }}">
-                                                    <i class="fas fa-image fa-fw text-dark"></i>
-                                                </a>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body p-0 mt-3">
-                                        <h6 class="mb-0 card-title fw-bolder text-dark fst-italic">The Title Name</h6>
-                                        <div class="mb-4 mt-2">
-                                            <small class="text-black-50 my-2 fw-bolder fst-italic">
-                                                <i class="far fa-clock"></i>
-                                                Jan 18, 2022
-                                            </small> |
-                                            <small class="text-black-50 my-2 fw-bolder fst-italic">
-                                                <i class="far fa-comment"></i>
-                                                0 comment
-                                            </small>
-                                        </div>
-                                        <small class="d-block text-black-50 ">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, sequi, ullam! Earum illum ipsum quos sit totam. Aliquid animi commodi, cum cumque fugit maxime nostrum quis totam veritatis voluptas voluptatum.
-                                        </small>
-                                        <div class="d-flex">
-                                            <a href="#" class="mt-4 btn btn-sm btn-secondary text-white fst-italic text-uppercase fw-bolder">Readmore</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
 
                         </div>
                     </div>

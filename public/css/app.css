@@ -4816,7 +4816,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #fffeff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #fffeff;
   border-radius: 0px;
 }
 .card > hr {
@@ -4868,7 +4868,7 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid #fffeff;
 }
 .card-header:first-child {
   border-radius: 0 0 0 0;
@@ -4877,7 +4877,7 @@ textarea.form-control-lg {
 .card-footer {
   padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 1px solid #fffeff;
 }
 .card-footer:last-child {
   border-radius: 0 0 0 0;
@@ -5150,12 +5150,12 @@ textarea.form-control-lg {
 }
 
 .page-item:first-child .page-link {
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 .page-item:last-child .page-link {
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .pagination-lg .page-link {
@@ -5163,12 +5163,12 @@ textarea.form-control-lg {
   font-size: 1.25rem;
 }
 .pagination-lg .page-item:first-child .page-link {
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 .pagination-lg .page-item:last-child .page-link {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .pagination-sm .page-link {
@@ -5176,12 +5176,12 @@ textarea.form-control-lg {
   font-size: 0.875rem;
 }
 .pagination-sm .page-item:first-child .page-link {
-  border-top-left-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 .pagination-sm .page-item:last-child .page-link {
-  border-top-right-radius: 0.2rem;
-  border-bottom-right-radius: 0.2rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .badge {
@@ -12703,4 +12703,27 @@ textarea.form-control-lg {
 .imghvr-blur:hover figcaption {
   opacity: 1;
   transition-delay: 0.21s;
+}
+
+.left {
+  height: 50px;
+  background: #e10200;
+  position: relative;
+}
+
+.left:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 50px solid #e10200;
+  border-right: 37px solid #0f0e13;
+  width: 0;
+}
+
+.user-img {
+  height: 80px;
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }

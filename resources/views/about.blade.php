@@ -22,11 +22,11 @@
         <div class="col-12">
             <div class="row my-4">
                 <div class="col-6">
-                    <div class="">
+                    <div class="scroll-reveal-left">
                         <img src="{{ asset("img/cars/car25.jpg") }}" class="img-fluid" alt="">
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 scroll-reveal-right">
                     <h4 class="mb-0 fst-italic fw-bolder text-capitalize border-4 border-primary border-start">&nbsp;&nbsp; Welcome To CarWorld</h4>
                     <p class="text-black my-3 fw-bold">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam cum dolorem facilis nemo provident repellat suscipit, tempora. Alias excepturi perferendis possimus tempore veniam.
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="row my-4 mt-5">
-                <div class="col-6">
+                <div class="col-6 scroll-reveal-left">
                     <h4 class="mb-0 fst-italic fw-bolder text-capitalize border-4 border-primary border-start">&nbsp;&nbsp; Why Choice Us</h4>
                     <p class="text-black-50 my-3">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam cum dolorem facilis nemo provident repellat suscipit, tempora. Alias excepturi perferendis possimus tempore veniam.
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="">
+                    <div class="scroll-reveal-right">
                         <img src="{{ asset("img/cars/car21.jpg") }}" height="" class="img-fluid" alt="">
                     </div>
                 </div>

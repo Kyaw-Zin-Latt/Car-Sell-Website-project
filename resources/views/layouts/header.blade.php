@@ -3,7 +3,7 @@
         <div class="col-12">
             <div class="row">
                 <div class="col-4 bg-primary left">
-                    <h4 class="mb-0 text-white text-end">CarWorld</h4>
+                    <h4 class="mb-0 me-5 text-white text-end">CarWorld</h4>
                 </div>
                 <div class="col-8 bg-dark d-flex justify-content-center">
                     <div class="d-flex align-items-center me-5">

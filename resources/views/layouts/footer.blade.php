@@ -25,17 +25,18 @@
                         <div class="col-4">
                             <h6 class="header-width mb-4 fw-bolder text-dark text-uppercase fst-italic border-start border-5 border-primary">&nbsp;&nbsp; Latest News</h6>
                             <div class="mb-4 mt-2">
-                                <div class="card border-0 mb-2" style="max-width: 540px; background-color: #eaeaea">
+                                @foreach($blogLimited as $blog)
+                                    <div class="card border-0 mb-2" style="max-width: 540px; background-color: #eaeaea">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-3 m-0">
-                                            <img src="{{ asset("img/cars/car-special1.jpg") }}" class="img-fluid rounded-start" alt="...">
+                                            <img src="{{ asset("storage/blog/".$blog->photo) }}" class="img-fluid rounded-start" alt="...">
                                         </div>
                                         <div class="col-md-9">
                                             <div class="card-body py-2">
-                                                <h6 class="mb-0 card-title fw-bolder text-dark fst-italic">The Title Name</h6>
+                                                <h6 class="mb-0 card-title fw-bolder text-dark fst-italic">{{ $blog->title }}</h6>
                                                 <small class="text-black-50 my-2 fw-bolder fst-italic">
                                                     <i class="far fa-clock"></i>
-                                                    Jan 18, 2022
+                                                    {{ $blog->created_at->format("d M Y") }}
                                                 </small> |
                                                 <small class="text-black-50 my-2 fw-bolder fst-italic">
                                                     <i class="far fa-comment"></i>
@@ -45,27 +46,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card border-0" style="max-width: 540px; background-color: #eaeaea">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-3 m-0">
-                                            <img src="{{ asset("img/cars/car-special2.jpg") }}" class="img-fluid rounded-start" alt="...">
-                                        </div>
-                                        <div class="col-md-9">
-                                            <div class="card-body py-2">
-                                                <h6 class="mb-0 card-title fw-bolder text-dark fst-italic">The Title Name</h6>
-                                                <small class="text-black-50 my-2 fw-bolder fst-italic">
-                                                    <i class="far fa-clock"></i>
-                                                    Jan 18, 2022
-                                                </small> |
-                                                <small class="text-black-50 my-2 fw-bolder fst-italic">
-                                                    <i class="far fa-comment"></i>
-                                                    0 comment
-                                                </small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                @endforeach
                             </div>
                         </div>
                         <div class="col-4">
@@ -118,7 +99,7 @@
                     </ul>
                 </li>
                 <li class="nav-item me-4">
-                    <a class="nav-link fst-italic text-white text-uppercase fw-bolder" href="#">Blog</a>
+                    <a class="nav-link fst-italic text-white text-uppercase fw-bolder" href="{{ route("blog.index") }}">Blog</a>
                 </li>
                 <li class="nav-item me-4">
                     <a class="nav-link fst-italic text-white text-uppercase fw-bolder" href="{{ route("contact") }}">Contact</a>

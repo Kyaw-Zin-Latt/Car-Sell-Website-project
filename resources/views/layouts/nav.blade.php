@@ -32,9 +32,38 @@
                     <a class="nav-link fst-italic text-uppercase fw-bolder" href="#">Contact</a>
                 </li>
             </ul>
-            <div class="">
-                <button class="btn btn-primary">Get Free Quote!</button>
-            </div>
+            @auth
+                <div class="dropdown">
+                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{ Auth()->user()->name }}
+                        <img src="{{ asset("storage/profile/".Auth()->user()->photo) }}" class="rounded-circle border border-white border-3" height="40" alt="">
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="{{ route("user-index") }}">Account</a></li>
+                        <li><a class="dropdown-item" href="{{ route("car.create") }}">Create Sell Post</a></li>
+                        <li><a class="dropdown-item" href="{{ route("blog.create") }}">Create New Blog</a></li>
+                        <li>
+                            <a class="dropdown-item" href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                Logout
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            @endauth
+
+            @guest
+                <div class="">
+                    <a href="{{ route("login") }}" class="btn btn-primary">Login</a>
+                    <a href="{{ route("register") }}" class="btn btn-outline-primary">Register</a>
+                </div>
+            @endguest
         </div>
     </div>
 </nav>

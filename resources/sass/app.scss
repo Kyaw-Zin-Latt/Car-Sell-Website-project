@@ -20,6 +20,11 @@ $btn-padding-y-lg: 0.40rem;
 $btn-padding-x-lg: 2.60rem;
 $btn-font-size-lg: 1rem;
 $card-border-radius : 0px;
+$card-bg : $white;
+$card-border-color: $white;
+$pagination-border-radius-sm: 0px;
+$pagination-border-radius-lg: 0px;
+$pagination-border-radius: 0px;
 
 //slick
 $slick-dot-size : 10px;
@@ -35,3 +40,22 @@ $slick-dot-color : #fc2121;
 @import "~imagehover.css/scss/_custom";
 @import "~imagehover.css/scss/imagehover";
 
+.left {
+    height: 50px;
+    background: #e10200;
+    position: relative;
+}
+.left:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 50px solid #e10200;
+    border-right: 37px solid #0f0e13;
+    width: 0;
+}
+.user-img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
